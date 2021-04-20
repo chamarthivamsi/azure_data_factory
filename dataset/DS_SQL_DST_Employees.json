@@ -1,0 +1,25 @@
+{
+	"name": "DS_SQL_DST_Employees",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_DestinationDB",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"varTableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().varTableName",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

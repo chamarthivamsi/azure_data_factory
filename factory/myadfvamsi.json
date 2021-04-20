@@ -1,0 +1,9 @@
+{
+	"name": "myadfvamsi",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3b5b495a-077c-483a-92b3-606f918c6cf7",
+		"tenantId": "911046cd-f2f1-4371-9da3-cafbd0435aa7"
+	}
+}

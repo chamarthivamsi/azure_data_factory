@@ -1,0 +1,31 @@
+{
+	"name": "DS_SQL_Employees_Control_Table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_SourceDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "sno",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "tblName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Flag",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Controltable"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
