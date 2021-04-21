@@ -177,7 +177,7 @@
 									},
 									"throughPut": {
 										"value": {
-											"value": "@activity('Lkp_control_table').output.throughput",
+											"value": "@activity('Act_copy_employees_info').output.throughput",
 											"type": "Expression"
 										},
 										"type": "Decimal"
