@@ -1,0 +1,16 @@
+{
+	"name": "DS_ASQL_EMP",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ASQL_myazuresqldb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "EMP"
+		}
+	}
+}
